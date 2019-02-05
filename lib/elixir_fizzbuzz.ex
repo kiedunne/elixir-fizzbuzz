@@ -1,11 +1,11 @@
 defmodule Fizzbuzzer do
 
   def convert(number) do
-    'fizz'
+    cond do
+    number == 3 -> 'fizz'
+    number == 5 -> 'buzz'
+    end
   end
 
-  def hello do
-    :world
-  end
-  
+
 end
