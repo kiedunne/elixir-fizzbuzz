@@ -9,4 +9,8 @@ defmodule ElixirFizzbuzzTest do
   test "5 is equal to buzz" do
     assert Fizzbuzzer.convert(5) == 'buzz'
   end
+
+  test "15 is equal to buzz" do
+    assert Fizzbuzzer.convert(15) == 'fizzbuzz'
+  end
 end
