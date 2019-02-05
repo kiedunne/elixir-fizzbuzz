@@ -34,5 +34,4 @@ defmodule ElixirFizzbuzzTest do
     assert Fizzbuzzer.convert(8) == 8
   end
 
-
 end
