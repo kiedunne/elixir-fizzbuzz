@@ -13,4 +13,7 @@ defmodule Fizzbuzzer do
     end
   end
 
+  def num_range do
+    Enum.each(1..100, fn(num) -> IO.puts num end)
+  end
 end
