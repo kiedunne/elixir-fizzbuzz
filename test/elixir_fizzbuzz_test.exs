@@ -1,8 +1,9 @@
 defmodule ElixirFizzbuzzTest do
   use ExUnit.Case
-  doctest ElixirFizzbuzz
+  doctest Fizzbuzzer
 
   test "greets the world" do
-    assert ElixirFizzbuzz.hello() == :world
+    assert Fizzbuzzer.hello() == :world
   end
+
 end
