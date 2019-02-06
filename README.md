@@ -19,9 +19,9 @@ To see 1-100 printed from a cond statement:
 Fizzbuzzer.hundred_range
 ```
 
-To define a range to print from a cond statement::
+To define a range to print from a cond statement (ex. 1-10):
 ```
-
+Fizzbuzzer.enter_range(1,10)
 ```
 ## Tests
 

@@ -34,12 +34,12 @@ defmodule ElixirFizzbuzzTest do
     assert Fizzbuzzer.convert(8) == 8
   end
 
-  test "array with range 1 to 100 consists of 100 elements" do
+  test "fizzbuzzer array with range 1 to 100 consists of 100 elements" do
     a = Fizzbuzzer.hundred_array
     assert length(a) == 100
   end
 
-  test "array with range 1 to 12 consists of 12 elements" do
+  test "fizzbuzzer array with range 1 to 12 consists of 12 elements" do
     a = Fizzbuzzer.enter_range(1,12)
     assert length(a) == 12
   end
