@@ -11,6 +11,7 @@ This project was my first introduction to the functional programming language, E
 ```
 git clone https://github.com/kiedunne/elixir-fizzbuzz.git
 cd elixir_fizzbuzz
+cd lib
 iex elixir_fizzbuzz.ex
 ```
 To see 1-100 printed from a cond statement:
@@ -22,7 +23,11 @@ To define a range to print from a cond statement::
 ```
 
 ```
+## Tests
 
+```
+mix test
+```
 ## Specification
 * Print 'fizz' if the number is divisible by 3
 * Print 'buzz' if it is divisible by 5

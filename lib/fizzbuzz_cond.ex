@@ -16,4 +16,13 @@ defmodule Fizzbuzzer do
   def hundred_range do
     Enum.each(1..100, fn(num) -> IO.puts convert(num) end)
   end
+
+  def hundred_array do
+    Enum.map(1..100, &Fizzbuzzer.convert/1)
+  end
+
+  def enter_range(min, max) do
+    Enum.map(min..max, fn(num) -> Fizzbuzzer.convert(num) end)
+  end
+
 end
