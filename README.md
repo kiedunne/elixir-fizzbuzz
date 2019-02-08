@@ -14,14 +14,18 @@ cd elixir_fizzbuzz
 cd lib
 iex elixir_fizzbuzz.ex
 ```
-To see 1-100 printed from a cond statement:
+To see 1-100 printed:
 ```
 Fizzbuzzer.hundred_range
+or
+FizzbuzzerPattern.hundred_range
 ```
 
 To define a range to print from a cond statement (ex. 1-10):
 ```
 Fizzbuzzer.enter_range(1,10)
+or 
+FizzbuzzerPattern.enter_range(1,10)
 ```
 ## Tests
 
