@@ -6,4 +6,7 @@ defmodule ElixirFizzbuzzerPatternTest do
     assert FizzbuzzerPattern.convert(3) == 'fizz'
   end
 
+  test '5 is equal to buzz' do
+    assert FizzbuzzerPattern.convert(5) == 'buzz'
+  end
 end

@@ -35,7 +35,7 @@ defmodule ElixirFizzbuzzerTest do
   end
 
   test "fizzbuzzer array with range 1 to 100 consists of 100 elements" do
-    a = Fizzbuzzer.hundred_array
+    a = Fizzbuzzer.hundred_range
     assert length(a) == 100
   end
 
