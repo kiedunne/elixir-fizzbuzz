@@ -1,4 +1,4 @@
-defmodule ElixirFizzbuzzTest do
+defmodule ElixirFizzbuzzerTest do
   use ExUnit.Case
   doctest Fizzbuzzer
 
